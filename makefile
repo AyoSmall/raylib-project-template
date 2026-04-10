@@ -1,2 +1,2 @@
 default:
-	g++ -std=c++17 -lGL -lm -lpthread -ldl -lrt -lX11 -lraylib -Llib -Iinclude main.cpp -o main.exe
+	g++ -std=c++17 main.cpp -Iinclude -Llib -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 -o main.exe
